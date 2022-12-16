@@ -1,7 +1,7 @@
 import numpy as np    # we're going to use numpy to process input and output data
 import onnxruntime    # to inference ONNX models, we use the ONNX Runtime
-import onnx
-from onnx import numpy_helper
+# import onnx
+# from onnx import numpy_helper
 from urllib.request import urlopen
 import json
 import time
